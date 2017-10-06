@@ -1,0 +1,79 @@
+h1,h2,h3,h4,h5,h6,p,ol,ul,img,a,.clockbox{
+    border: 0px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-size: 14px;
+    font-family: 'Comfortaa', cursive;
+}
+body {
+    background-color:#ff5454;
+}
+h1 {
+    font-size: 48px;
+    color:#ff5454;
+}
+.header{
+	background-color: #ff3f3f;
+	padding-top: 1px;
+	padding-bottom:1px;
+	margin: 15px;
+	
+}
+
+.header h1{
+	color:#ffffff;
+	text-align: center;
+}
+.content {
+    Background-color:#ff3f3f;
+    padding-left:1px;
+	padding-right:1px;
+	height:1250%;
+	margin: 15px;
+}
+.content h2{
+    text-align: center;
+    color:#ffffff;
+}
+.content h3{
+    color:#ffffff;
+    text-align: center;
+}
+p {
+    color:#ffffff;
+}
+
+.nav ul{
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	overflow:hidden;
+	background-color: #ff3f3f;
+}
+.nav li{
+	float:left;
+}
+.nav li a{
+	display:block;
+	color: white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration: none;
+}
+.nav {
+	padding-top:1px;
+}
+
+li a:hover:not(.active) {
+    background-color: #ff2b2b;
+}
+
+.active{
+	background-color: #ff2b2b;
+}
+
+.clockbox {
+	text-align: center;
+	font-size: 100; 
+	font-family: Comfortaa,Verdana;
+}
